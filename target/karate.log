@@ -1,0 +1,345 @@
+14:55:31.001 [main] DEBUG com.intuit.karate.Suite - [config] karate-config.js
+14:55:33.344 [main] ERROR com.intuit.karate - classpath:features/Firstfile.feature:4
+* print 'sree'
+>> classpath:features/Firstfile.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: ()
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected => but found eof
+()
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+js failed:
+>>>>
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: ()
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected => but found eof
+()
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:253)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1288)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+- com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:71)
+- org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:53)
+
+classpath:features/Firstfile.feature:4
+14:55:33.345 [main] ERROR com.intuit.karate - classpath:features/Firstfile.feature:6
+Given url 'https://gorest.co.in/public/v2/users/1830426'
+>> classpath:features/Firstfile.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: ()
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected => but found eof
+()
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+js failed:
+>>>>
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: ()
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected => but found eof
+()
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:253)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1288)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+- com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:71)
+- org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:53)
+
+classpath:features/Firstfile.feature:4
+classpath:features/Firstfile.feature:6
+14:55:33.347 [main] ERROR com.intuit.karate - classpath:features/Firstfile.feature:7
+When method Get
+>> classpath:features/Firstfile.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: ()
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected => but found eof
+()
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+js failed:
+>>>>
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: ()
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected => but found eof
+()
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:253)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1288)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+- com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:71)
+- org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:53)
+
+classpath:features/Firstfile.feature:4
+classpath:features/Firstfile.feature:6
+classpath:features/Firstfile.feature:7
+14:55:33.348 [main] ERROR com.intuit.karate - classpath:features/Firstfile.feature:8
+Then status 200
+>> classpath:features/Firstfile.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: ()
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected => but found eof
+()
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+js failed:
+>>>>
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: ()
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected => but found eof
+()
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:253)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1288)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+- com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:71)
+- org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:53)
+
+classpath:features/Firstfile.feature:4
+classpath:features/Firstfile.feature:6
+classpath:features/Firstfile.feature:7
+classpath:features/Firstfile.feature:8
+14:55:33.349 [main] ERROR com.intuit.karate - classpath:features/Firstfile.feature:9
+And print response
+>> classpath:features/Firstfile.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: ()
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected => but found eof
+()
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+js failed:
+>>>>
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: ()
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected => but found eof
+()
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:253)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1288)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+- com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:71)
+- org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:53)
+
+classpath:features/Firstfile.feature:4
+classpath:features/Firstfile.feature:6
+classpath:features/Firstfile.feature:7
+classpath:features/Firstfile.feature:8
+classpath:features/Firstfile.feature:9
+14:56:03.316 [main] INFO  com.intuit.karate - [print] sree 
+14:56:03.918 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1830426
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/21.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:56:05.459 [main] DEBUG com.intuit.karate - response time in milliseconds: 1526
+1 < 200
+1 < Date: Wed, 06 Dec 2023 09:26:11 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"e5bbf895a1f4c02451ac4327db9903c9"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: a9e62ed5-90c0-4e0c-b90f-0130b4a65071
+1 < x-runtime: 0.029761
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sUsU70B7HIp4mENnOLsNgdO2KI10U0QDrBk%2FJ3GC4jDTdixn5a1v5yzMIU0H8F2Ys5kWBgpjAYPDFsZ9W9qJDlS%2FUct0N66oSxtegCM4kKlCDxnX0CZ3M%2BUGBahqZco%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83137c5d1e367253-AKL
+1 < alt-svc: h3=":443"; ma=86400
+{"id":1830426,"name":"Durgeshwari Verma PhD","email":"durgeshwari_phd_verma@harber-schiller.test","gender":"female","status":"inactive"}
+
+14:56:05.539 [main] INFO  com.intuit.karate - [print] {
+  "id": 1830426,
+  "name": "Durgeshwari Verma PhD",
+  "email": "durgeshwari_phd_verma@harber-schiller.test",
+  "gender": "female",
+  "status": "inactive"
+}
+ 
+15:46:42.343 [main] ERROR com.intuit.karate - classpath:Features/Getrequest.feature:5
+Given url 'https://gorest.co.in/public/v2/users/1830426
+js failed:
+>>>>
+01: 'https://gorest.co.in/public/v2/users/1830426
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:45 Missing close quote
+'https://gorest.co.in/public/v2/users/1830426
+                                             ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2238)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2157)
+- com.intuit.karate.core.ScenarioEngine.url(ScenarioEngine.java:379)
+
+classpath:Features/Getrequest.feature:5
+15:47:33.057 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1830426
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:47:34.418 [main] DEBUG com.intuit.karate - response time in milliseconds: 1342
+1 < 200
+1 < Date: Wed, 06 Dec 2023 10:17:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"e5bbf895a1f4c02451ac4327db9903c9"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 92761e2d-0368-422e-b305-0b1f18f4146c
+1 < x-runtime: 0.017608
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=h1LufkwWqb5DsjFXSHUS7Xn0nlaGJ5mp13LGoNTbodXoPEPBcVQxvhreJIEZIkzkYHinTZ6CbFiHvG8C2IGZDO39SE%2BkcmOtpp3s4SwQyMUIMxSsCgT6XTJK1fdeXgE%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8313c7c86bdd508c-AKL
+1 < alt-svc: h3=":443"; ma=86400
+{"id":1830426,"name":"Durgeshwari Verma PhD","email":"durgeshwari_phd_verma@harber-schiller.test","gender":"female","status":"inactive"}
+
