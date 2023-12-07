@@ -343,3 +343,36 @@ classpath:Features/Getrequest.feature:5
 1 < alt-svc: h3=":443"; ma=86400
 {"id":1830426,"name":"Durgeshwari Verma PhD","email":"durgeshwari_phd_verma@harber-schiller.test","gender":"female","status":"inactive"}
 
+15:54:13.452 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1830426
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:54:14.965 [main] DEBUG com.intuit.karate - response time in milliseconds: 1503
+1 < 200
+1 < Date: Wed, 06 Dec 2023 10:24:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"e5bbf895a1f4c02451ac4327db9903c9"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: a0faada4-c2dc-4b31-84dd-50c7e71bab4f
+1 < x-runtime: 0.027235
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ycbs6S93HMiQIBCz%2BFoBK5I6ggymvxMCeJfrQ%2F9XAkobSs0DjDvZnyJnZlWEz06dSco2oLgB7OcAg2E%2FEhjfbgcX9xj%2FwKcjn9i2DK8hXltXTNMet4AZzrmx%2FCc1Ws0%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8313d18e89f650c8-AKL
+1 < alt-svc: h3=":443"; ma=86400
+{"id":1830426,"name":"Durgeshwari Verma PhD","email":"durgeshwari_phd_verma@harber-schiller.test","gender":"female","status":"inactive"}
+
