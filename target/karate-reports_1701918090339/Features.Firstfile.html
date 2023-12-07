@@ -26,7 +26,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 });
 </script>
 
-    <title>features.Firstfile</title>
+    <title>Features.Firstfile</title>
   </head>
   <body>
     <div id="root-container">
@@ -38,8 +38,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">1</div>
-      <div id="nav-fail" class="bg-danger">0</div>
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
     </div>
   </div>
   <div id="nav-env">
@@ -49,12 +49,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2023-12-06 02:56:05 pm</div>
+    <div>2023-12-07 07:10:00 am</div>
   </div>
 </div>
 
         <div class="nav-container">
-          <div class="nav-item passed">
+          <div class="nav-item failed">
             <a href="#[1:3]"><span>[1:3]</span> <span>Hello world</span></a>
           </div>
         </div>
@@ -64,7 +64,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
           <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
           <span class="feature-label">Feature:</span>
-          <span class="feature-path">features/Firstfile.feature</span><span class="feature-label">|</span>
+          <span class="feature-path">Features/Firstfile.feature</span><span class="feature-label">|</span>
           <span class="feature-name">Hello world</span>
           <span class="feature-description"></span>
         </div>
@@ -80,8 +80,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>2574</span>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1742</span>
             </div>
           </div>
           
@@ -98,7 +98,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>print &#39;sree&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">366</div>
+    <div class="time-cell passed">88</div>
   </div>
 
    
@@ -107,7 +107,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">14:56:03.323 [print] sree 
+  <div class="preformatted" data-parent="0.4">07:09:58.585 [print] sree 
 </div>   
 
   
@@ -120,14 +120,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.6">
-      <div class="step-ref passed">6</div>
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url &#39;https://gorest.co.in/public/v2/users/1830426&#39;</span>
+        <span>*</span>&nbsp;<span>print url</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -136,7 +136,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-     
+  <div class="preformatted" data-parent="0.5">07:09:58.598 [print] https://gorest.co.in/public/v2/ 
+</div>   
 
   
 
@@ -152,71 +153,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">7</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method Get</span>
+        <span>Given</span>&nbsp;<span>url &#39;https://gorest.co.in/public/v2/users/1830426&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">2190</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="0.7">14:56:03.919 request:
-1 &gt; GET https://gorest.co.in/public/v2/users/1830426
-1 &gt; Host: gorest.co.in
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/21.0.1)
-1 &gt; Accept-Encoding: gzip,deflate
-
-
-14:56:05.460 response time in milliseconds: 1526
-1 &lt; 200
-1 &lt; Date: Wed, 06 Dec 2023 09:26:11 GMT
-1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Connection: keep-alive
-1 &lt; Cache-Control: max-age=0, private, must-revalidate
-1 &lt; etag: W/&quot;e5bbf895a1f4c02451ac4327db9903c9&quot;
-1 &lt; referrer-policy: strict-origin-when-cross-origin
-1 &lt; vary: Origin
-1 &lt; x-content-type-options: nosniff
-1 &lt; x-download-options: noopen
-1 &lt; x-frame-options: SAMEORIGIN
-1 &lt; x-permitted-cross-domain-policies: none
-1 &lt; x-request-id: a9e62ed5-90c0-4e0c-b90f-0130b4a65071
-1 &lt; x-runtime: 0.029761
-1 &lt; x-xss-protection: 0
-1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=sUsU70B7HIp4mENnOLsNgdO2KI10U0QDrBk%2FJ3GC4jDTdixn5a1v5yzMIU0H8F2Ys5kWBgpjAYPDFsZ9W9qJDlS%2FUct0N66oSxtegCM4kKlCDxnX0CZ3M%2BUGBahqZco%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 83137c5d1e367253-AKL
-1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
-{&quot;id&quot;:1830426,&quot;name&quot;:&quot;Durgeshwari Verma PhD&quot;,&quot;email&quot;:&quot;durgeshwari_phd_verma@harber-schiller.test&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;inactive&quot;}
-
-</div>   
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.8">
-      <div class="step-ref passed">8</div>
-      
-      <div class="step-cell passed">
-        <span>Then</span>&nbsp;<span>status 200</span>
-      </div>
-    </div>
-    <div class="time-cell passed">6</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -237,14 +177,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.9">
-      <div class="step-ref passed">9</div>
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>print response</span>
+        <span>When</span>&nbsp;<span>method Get</span>
       </div>
     </div>
-    <div class="time-cell passed">8</div>
+    <div class="time-cell passed">1622</div>
   </div>
 
    
@@ -253,15 +193,100 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.9">14:56:05.540 [print] {
-  &quot;id&quot;: 1830426,
-  &quot;name&quot;: &quot;Durgeshwari Verma PhD&quot;,
-  &quot;email&quot;: &quot;durgeshwari_phd_verma@harber-schiller.test&quot;,
-  &quot;gender&quot;: &quot;female&quot;,
-  &quot;status&quot;: &quot;inactive&quot;
-}
- 
+  <div class="preformatted" data-parent="0.8">07:09:59.154 request:
+1 &gt; GET https://gorest.co.in/public/v2/users/1830426
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+07:10:00.122 response time in milliseconds: 955
+1 &lt; 404
+1 &lt; Date: Thu, 07 Dec 2023 01:40:07 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 32
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: no-cache
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: 45557ff1-f571-4df3-ac74-bb5105d24ea5
+1 &lt; x-runtime: 0.016661
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=irLhl%2BcNxEfkk79AAiaj8M7Cq%2BCV%2BedBkIBkhOoed4FMI6U4aVCoWUPqjInvURy4MGuUj8LBSqSgwlenwY9Olyup%2FQlC%2FUAf5WWsHpmyr8u7Qf1KmMlyVp%2Fkw%2FCAwVE%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 83190f0a4d8c7253-AKL
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+{&quot;message&quot;:&quot;Resource not found&quot;}
+
 </div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref failed">9</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">27</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">07:10:00.251 classpath:Features/Firstfile.feature:9
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 955, url: https://gorest.co.in/public/v2/users/1830426, response: 
+{&quot;message&quot;:&quot;Resource not found&quot;}
+classpath:Features/Firstfile.feature:9
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref skipped">10</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
 
   
 
