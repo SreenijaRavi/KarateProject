@@ -1,7 +1,10 @@
 function fn ()
 
 {
-var config = { url : 'https://reqres.in/api/'
+karate.configure('logPrettyRequest', true);
+karate.configure('logPrettyResponse', true);
+
+var config = { url : 'https://api.restful-api.dev/objects'
 }
 return config
 }
